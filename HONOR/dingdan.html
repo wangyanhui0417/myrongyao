@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dingdan.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <div id="head">
+        <div class="head-con">
+            <ul class="ulhead">
+                <li>
+                    <a href="">关于荣耀</a>
+                </li>
+                <li>
+                    <a href="">新闻</a>
+                </li>
+                <li>
+                    <a href="">摄影</a>
+                </li>
+                <li>
+                    <a href="">会员</a>
+                </li>
+                <li>
+                    <a href="">企业购</a>
+                </li>
+                <li>
+                    <a href="">荣耀俱乐部</a>
+                </li>
+            </ul>
+            <ul class="ulheadRight">
+                <li>登陆</li>
+                <span>|</span>
+                <li>注册</li>
+                <li>我的订单</li>
+                <li>
+                    <i class="iconfont icon-gouwuche1"></i>
+                    购物车
+                    <span>(0)</span>
+                </li>
+                <li>手机端
+                    <i class="iconfont icon-xiasanjiao"></i>
+                </li>
+            </ul>
+        </div>
+    </div> 
+    <!-- 导航 -->
+    <div id="header">
+        <div class="header-con">
+            <h1>
+                <img src="images/log_03.gif" alt="">
+            </h1>
+            <ul class="ulheader">
+                <li>
+                    <a href="">新品上市</a>
+                </li>
+                <li>
+                    <a href="">新人有礼</a>
+                </li>
+                <li>
+                    <a href="">开业典礼</a>
+                </li>
+                <li>
+                    <a href="">荣耀30</a>
+                </li>
+                <li>
+                    <a href="">猎人笔记本</a>
+                </li>
+            </ul>
+            <form>
+                <input type="text" placeholder="荣耀v40  荣耀30">
+            </form>
+        </div>
+    </div> 
+    <!-- 中间部分 -->
+    <div id="main">
+        <div class="main-h">
+            <p>添加收货地址</p>
+            <form class="sitebox">
+                <input type="text" class="name" placeholder="姓名" value="">
+                <input type="text" class="tel" placeholder="手机号">
+                <br>
+                    <select name="" id="province"> </select>
+                    <select name="" id="city"></select>
+                    <select name="" id="area"></select>
+                    <button type="button" class="btn" onClick="cityPicker.init()">确定</button>
+                <br>
+                <textarea name="" id="inDetail" placeholder="详细地址"></textarea>
+				</form>
+            <div class="shangpin">
+                <p>商品</p>
+                <div class="goodsbox"><img src="img/ia_600000012_5.jpg" alt="">
+                    <p class="data-name">荣耀xSport PRO运动蓝牙耳机  海蓝色</p>
+                    <p class="pricebox"><span class="data-price">199.00</span>元 X <span class="data-num">1</span></p>
+                    <p class="pricebox2"><span class="data-price">199.00</span>元</p>
+                </div>
+                <p class="delivery">配送方式<span>包邮</span></p>
+                <p class="delivery">发票 <span>电子普通发票</span><span>个人</span><span>商品明细</span><span>修改 ></span></p>
+                <div class="copeWithbox">
+                    <p>商品件数： <span><i class="data-num">1</i>件</span></p>
+                    <p>商品总价： <span><i class="data-price">199.00</i>元</span></p>
+                </div>
+                <div class="backcart">
+                    <button class="orange">去结算</button><button>返回购物车</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- foot -->
+     <div id="foot"> 
+            <div class="foot-con">
+                <div class="foot-top">
+                    <span><i class="iconfont icon-shuzi9"></i>官方商城 品质保证</span>
+                    <span><i class="iconfont icon-discover"></i>7天退货 15天换货</span>
+                    <span><i class="iconfont icon-shuzi"></i>48元起免运费</span>
+                    <span><i class="iconfont icon-zaixiankefu"></i>1800+服务店 全国联保</span>
+                </div>
+                <div class="leftbox">
+                    <ul class="ulfoot">
+                        <li>
+                            <h3>推荐产品</h3>
+                            <div class="tuijian">
+                                <a href="">手机</a>
+                                <a href="">笔记本</a>
+                                <a href="">平板</a>
+                                <a href="">智慧屏</a>
+                                <a href="">配件</a>
+                                <a href="">家庭智慧</a>
+                                <a href="">智能穿戴</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>品牌</h3>   
+                            <div class="tuijian1">
+                                    <a href="">加入荣耀</a>
+                                    <a href="">新闻</a>
+                                    <a href="">视频</a>
+                                    <a href="">活动</a>
+                                    <a href="">关于我们</a>
+                                </div>          
+                         </li>
+                        <li> 
+                            <h3>购物相关</h3>
+                            <div class="tuijian2">
+                                    <a href="">购物指南</a>
+                                    <a href="">以旧换新</a>
+                                    <a href="">退换货政策</a>
+                                    <a href="">配送方式</a>
+                                    <a href="">支付方式</a>
+                                    <a href="">常见问题</a>
+                                </div>   
+                        </li>
+                        <li>
+                            <h3>服务支持</h3>
+                            <div class="tuijian3">
+                                    <a href="">保修政策</a>
+                                    <a href="">备件价格查询</a>
+                                </div>   
+                        </li>
+                        <li>
+                            <h3>快速链接</h3>
+                            <div class="tuijian4">
+                                <a href="">荣耀俱乐部</a>
+                                <a href="">加入荣耀</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rightbox">
+                  <div class="xiaofei">
+                      <li>消费者服务热线</li> 
+                      <li> 4006966666</li>
+                      <div class="guanzhu">
+                        <span>关注荣耀:
+                            <i class="iconfont icon-douyin1"></i>
+                            <i class="iconfont icon-QQ2"></i>
+                            <i class="iconfont icon-toutiao1"></i>
+                            <i class="iconfont icon-weibo2"></i>
+                            <i class="iconfont icon-weixin1"></i>
+                        </span> 
+                      </div>
+                      <img src="images/erm.jpg" alt="">
+                    </div> 
+                </div>
+            </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class="footer-con">
+            <div class="liBiao">
+                <a href="">隐私政策</a>
+                <a href="">使用条款</a>
+                <a href="">关于cookies</a>
+                <a href="">法律信息</a>
+            </div>
+            <div class="diBu">
+                版权所有 © 荣耀终端有限公司 2020-2021 保留一切权利. <img src="images/ghs.png" alt=""> <a href=""> 粤公网安备 44030702003447号 </a> 粤ICP备20047157号
+            </div>
+        </div>
+    </div> 
+    <script src="js/machine.js"></script>
+	<script src="js/citys.js"></script>
+    <script>
+    // 面向对象的三级联动
+    let cityPicker = {
+            province:$("#province"),
+            city:$("#city"),
+            area:$("#area"),
+
+            updateCity(index){
+                var index = index || 0;//let不允许重复出现
+                city.innerHTML = "";
+            citys[index].mallCityList.forEach(item =>{
+                let option = document.createElement("option")
+                option.innerHTML = item.cityName;
+                city.appendChild(option)
+                })
+            },
+            // 3.更新区数据
+            updateArea(provinceIndex,cityIndex){
+                    area.innerHTML = "";
+                    citys[provinceIndex].mallCityList[cityIndex].mallAreaList.forEach(item=>{
+                        let option = document.createElement("option");
+                        option.innerHTML = item.areaName;
+                        area.appendChild(option)
+                    })
+                },
+            init(){
+                citys.forEach(item => {       
+                  let option = document.createElement("option")
+                    option.innerHTML = item.provinceName;
+                    this.province.appendChild(option)
+                });
+                this.updateCity(0)
+                this.updateArea(0,0)
+                // 2.更新城市数据
+                    province.onchange =() =>{
+                        this.updateCity(this.province.selectedIndex)
+                        this.updateArea(this.province.selectedIndex,this.city.selectedIndex)
+                    }
+                    city.onchange =() =>{
+                        this.updateArea(this.province.selectedIndex,this.city.selectedIndex)
+                    }        
+            }
+     }
+        cityPicker.init()
+    </script>
+</body>
+</html>
